@@ -554,7 +554,7 @@ def verify(sig,G,K,message):
 
 #######Try all possibilities
 
-from time import clock
+from time import process_time
 from math import sqrt,ceil
 def crack_by_brute_force(G,K):
     start_time = clock()
